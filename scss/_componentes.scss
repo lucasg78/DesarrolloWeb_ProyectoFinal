@@ -66,7 +66,6 @@ $panoramica: (
 	padding: 5px;
 }
 
-
 /*Carousel*/
 .fondoCarousel {
 	background-color: rgba(228, 218, 210, 0.85);
@@ -100,7 +99,6 @@ $panoramica: (
 	}
 }
 
-
 /*Comentarios, mapa y contacto*/
 .contactos {
 	font-size: 16px;
@@ -119,6 +117,16 @@ $panoramica: (
 }
 
 /*Footer*/
+.footerIzq {
+	padding-left: 20px;
+}
+.footerDer {
+	padding-right: 20px;
+}
+.seguinos {
+	font-size: 16px;
+	font-weight: normal;
+}
 .botonRedes {
 	padding: 0px 5px;
 }

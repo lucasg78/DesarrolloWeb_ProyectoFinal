@@ -14,7 +14,7 @@
 		justify-content:center;
 	}
 	.imgCart {
-		width: 25%;
+		width: 15%;
 	}
 	.footerIzq {
 		display: flex;
@@ -24,6 +24,16 @@
 		display: flex;
 		justify-content: center;
 		}
+	.copyright {
+		font-size: 0px;
+	}
+	.seguinos {
+		font-size: 0px;
+		padding-top: 20px;
+	}
+	.botonRedes {
+	padding: 0px 5px;
+}
 }
 @media screen and (min-width:480px) and (max-width:767px) {
 	.carousel {
@@ -41,7 +51,7 @@
 		justify-content:center;
 	}
 	.imgCart {
-		width: 25%;
+		width: 10%;
 	}
 	.column {
 		width: 50%;
@@ -49,11 +59,14 @@
 	.footerIzq {
 		display: flex;
 		justify-content: center;
-		}
+	}
 	.footerDer {
 		display: flex;
 		justify-content: center;
-		}
+	}
+	.copyright {
+		font-size: 0px;
+	}
 }
 @media screen and (min-width:768px) {
 	.carousel {
