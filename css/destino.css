@@ -11129,6 +11129,17 @@ textarea.form-control-lg {
 }
 
 /*Header*/
+.cart {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.contImgCart {
+  display: flex;
+  justify-content: end;
+}
+
 .imgCart {
   width: 35%;
 }
@@ -11186,7 +11197,7 @@ textarea.form-control-lg {
 }
 .fondoCarousel .carousel {
   display: flex;
-  width: 65%;
+  width: 600px;
   align-items: center;
   justify-content: center;
 }
@@ -11229,16 +11240,8 @@ textarea.form-control-lg {
 }
 
 /*Footer*/
-.botonFacebook {
-  color: white;
-}
-
-.botonInstagram {
-  color: white;
-}
-
-.botonTwitter {
-  color: white;
+.botonRedes {
+  padding: 0px 5px;
 }
 
 .header {
@@ -11298,13 +11301,13 @@ textarea.form-control-lg {
 @media screen and (max-width: 479px) {
   .carousel {
     display: flex;
-    width: 85%;
+    width: 75%;
     align-items: center;
     justify-content: center;
   }
 
   .imgLogo {
-    width: 15%;
+    width: 25%;
     padding-top: 20px;
   }
 
@@ -11314,7 +11317,17 @@ textarea.form-control-lg {
   }
 
   .imgCart {
-    width: 15%;
+    width: 25%;
+  }
+
+  .footerIzq {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerDer {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -11336,11 +11349,21 @@ textarea.form-control-lg {
   }
 
   .imgCart {
-    width: 15%;
+    width: 25%;
   }
 
   .column {
     width: 50%;
+  }
+
+  .footerIzq {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerDer {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
@@ -11366,6 +11389,16 @@ textarea.form-control-lg {
 
   .imgCart {
     width: 40%;
+  }
+
+  .footerIzq {
+    display: flex;
+    justify-content: start;
+  }
+
+  .footerDer {
+    display: flex;
+    justify-content: end;
   }
 }
 /*Map*/

@@ -1,4 +1,13 @@
 /*Header*/
+.cart {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+.contImgCart {
+	display: flex;
+	justify-content:end;
+	}
 .imgCart {
 	width: 35%;
 	}
@@ -63,7 +72,7 @@ $panoramica: (
 	background-color: rgba(228, 218, 210, 0.85);
 	.carousel {
 		display:flex;
-		width:65%;
+		width:600px;
 		align-items: center;
 		justify-content: center;
 	}
@@ -110,17 +119,6 @@ $panoramica: (
 }
 
 /*Footer*/
-$redes: (
-    Facebook: white,
-	Instagram: white,
-	Twitter: white,
-);
-.botonFacebook {
-	color: map-get($redes, Facebook)
-}
-.botonInstagram {
-	color: map-get($redes, Instagram)
-}
-.botonTwitter {
-	color: map-get($redes, Twitter)
+.botonRedes {
+	padding: 0px 5px;
 }
