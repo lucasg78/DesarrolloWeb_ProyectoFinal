@@ -26,6 +26,7 @@
 
 <body>
 
+    <!-- Header con animaciones en subtítulo y logo -->
     <header>
         <section class="container-fluid header">
             <div class="row mx-auto">
@@ -49,6 +50,7 @@
         </section>
     </header>
 
+    <!-- Menú -->
     <nav class="navbar navbar-expand-md navbar-light bg-light" aria-label="Fourth navbar example">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
@@ -77,6 +79,7 @@
         </div>
     </nav>
 
+    <!-- Panorámica de la ciudad con video superpuesto y tres bloques de texto destacando los aspectos principales de la empresa-->
     <section>
         <div class="container-fluid panoramica2">
             <div class="row">
@@ -88,7 +91,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 colBox" style="--bs-bg-opacity: .7;" data-aos="flip-right">
+                <div class="col-md-4 colBox" style="--bs-bg-opacity: .7;" data-aos="fade-up">
                     <div class="box">Nuestros comienzos</div>
                     <div class="boxAbajo">
                         Ahumadero del fin del mundo fue creado hace más de 10 años con el fin de ofrecer productos
@@ -96,7 +99,7 @@
                         reconocimiento internacional, rescatando el valor único de las mismas para transformarlas al
                         aplicar técnicas de ahumado y conserva</div>
                 </div>
-                <div class="col-md-4 colBox" style="--bs-bg-opacity: .7;" data-aos="flip-up">
+                <div class="col-md-4 colBox" style="--bs-bg-opacity: .7;" data-aos="fade-up">
                     <div class="box">Método de ahumado</div>
                     <div class="boxAbajo">
                         El proceso de ahumado se realiza con humo de turba y bajo un método semejante al realizado en
@@ -104,7 +107,7 @@
                         gusto de la materia prima. La escala de producción es artesanal, con procedimientos certificados
                     </div>
                 </div>
-                <div class="col-md-4 colBox" style="--bs-bg-opacity: .7;" data-aos="flip-left">
+                <div class="col-md-4 colBox" style="--bs-bg-opacity: .7;" data-aos="fade-up">
                     <div class="box">Sello de calidad certificada</div>
                     <div class="boxAbajo">
                         <p>El <a href="https://prodyambiente.tdf.gob.ar/sello-de-calidad/#:~:text=El%20Sello%20de%20Calidad%20Certificada,de%20los%20diferentes%20sectores%20productivos."
@@ -122,6 +125,7 @@
         </div>
     </section>
 
+    <!-- Carousel con productos destacados -->
     <section class="fondoCarousel">
         <div class="container-fluid pb-3 pt-4">
             <div class="row mt-2">
@@ -159,6 +163,7 @@
         </div>
     </section>
 
+    <!-- Contenedor de la sección inferior de la página con comentarios, mapa del sitio y vías de contacto -->
     <section>
         <div class="container-fluid">
             <div class="row mb-5">
@@ -196,7 +201,7 @@
                 <div class="col-sm-12 col-md-4 text-center mt-5">
                     <div data-aos="fade-up">
                         <h3 class="titAbajo">Contacto</h3>
-                        <div class="text-center mt-4 contactos2">
+                        <div class="text-center mt-4 contactos">
                             <div><a href="#"><i class="fas fa-mobile-alt pe-2"></i></a>
                                 <span>Ushuaia 2901-3333333</span>
                                 <div><a href="#"><i class="fas fa-mobile-alt pe-2"></i></a>
@@ -213,6 +218,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container-fluid">
             <div class="row pt-3 pb-3 text-white bg-dark bg-gradient">
@@ -234,12 +240,20 @@
     </footer>
 
     <!-- Javascript de Bootstrap -->
-    <script src="../js/bootstrap.js"></script>
+    <script src="./js/bootstrap.js"></script>
 
     <!-- Javascript de AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Initialize AOS -->
     <script>
         AOS.init();
+    </script>
+
+    <!-- Javascript de WOW -->
+    <script src="js/wow.min.js"></script>
+    <!-- Initialize WOW -->
+    <script>
+        new WOW().init();
     </script>
 
 </body>

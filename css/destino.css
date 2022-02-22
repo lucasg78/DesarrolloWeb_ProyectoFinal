@@ -11133,12 +11133,9 @@ textarea.form-control-lg {
   width: 35%;
 }
 
-/*Map-Get*/
-/*Declaro el Map_get*/
-/*Aplico el Map-Get*/
-/*PANORÁMICAS*/
+/*Panorámicas*/
 /*Ushuaia nevada*/
-.panoramica {
+.panoramica, .panoramica3, .panoramica2 {
   background-image: url(../images/panoramica.jpg);
   height: 100%;
   background-attachment: fixed;
@@ -11149,19 +11146,11 @@ textarea.form-control-lg {
 /*Ushuaia desde la bahía*/
 .panoramica2 {
   background-image: url(../images/panoramica4.jpg);
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
 }
 
 /*Ahumadero adentro del local*/
 .panoramica3 {
   background-image: url(../images/contacto.png);
-  height: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
 }
 
 /*Cuadros de texto debajo de las panorámicas*/
@@ -11169,13 +11158,13 @@ textarea.form-control-lg {
   padding-top: 20px;
   padding-left: 10px;
   padding-bottom: 20px;
+  margin: 0px;
+  overflow: hidden;
   background-color: rgba(250, 250, 250, 0.75);
   height: auto;
-  overflow: hidden;
   border: none;
 }
 
-/*Mixin -sin parámetro-*/
 .box, .boxAbajo {
   font-size: 32px;
   font-weight: bold;
@@ -11188,10 +11177,7 @@ textarea.form-control-lg {
 .boxAbajo {
   font-size: 20px;
   font-weight: normal;
-  padding-top: 5px;
-  padding-left: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
+  padding: 5px;
 }
 
 /*Carousel*/
@@ -11224,16 +11210,11 @@ textarea.form-control-lg {
 
 .titTienda:hover {
   letter-spacing: 3px;
-  color: rgba(37, 37, 58, 0.658);
+  color: rgba(37, 37, 58, 0.6);
 }
 
 /*Comentarios, mapa y contacto*/
 .contactos {
-  font-size: 14px;
-  line-height: 1.2;
-}
-
-.contactos2 {
   font-size: 16px;
   font-weight: normal;
   line-height: 1.8;
@@ -11245,6 +11226,19 @@ textarea.form-control-lg {
   background-color: none;
   font-size: 36px;
   border: none;
+}
+
+/*Footer*/
+.botonFacebook {
+  color: white;
+}
+
+.botonInstagram {
+  color: white;
+}
+
+.botonTwitter {
+  color: white;
 }
 
 .header {
@@ -11309,10 +11303,6 @@ textarea.form-control-lg {
     justify-content: center;
   }
 
-  .contactos {
-    font-size: 0px;
-  }
-
   .imgLogo {
     width: 15%;
     padding-top: 20px;
@@ -11333,11 +11323,6 @@ textarea.form-control-lg {
     width: 75%;
     align-items: center;
     justify-content: center;
-  }
-
-  .contactos {
-    font-size: 12px;
-    line-height: 1.2;
   }
 
   .imgLogo {
@@ -11364,11 +11349,6 @@ textarea.form-control-lg {
     width: 65%;
     align-items: center;
     justify-content: center;
-  }
-
-  .contactos {
-    font-size: 12px;
-    line-height: 1.1;
   }
 
   .contImgCart {
