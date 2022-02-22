@@ -1,0 +1,52 @@
+.header {
+	background-color:black;
+	.subTitulo {
+		animation-name: subtitulo;
+		animation-iteration-count: infinite;
+		animation-duration:3s;
+		}
+}
+@keyframes subtitulo {
+    0% {
+    transform: translate(0);
+    }
+    50% {
+    transform: scale(1.1);
+    opacity: 0.09;
+    }
+    100% {
+    transform: translate(0);	
+    }
+}
+
+/* Animación del logo*/
+.imgLogo {
+    width: 60%;
+    transition: width 1s;
+	&:hover {
+		width: 80%;
+	}
+}
+
+/* Animación del texto -Leer los comentarios-*/
+.comentario a:hover {
+	transition: all 1s;
+	color: black;
+	background-color: none;
+	font-size:18px;
+	border: none;
+}
+
+/* Animación de los links*/
+/*Menú arriba*/
+#navbarsExample04 a:hover {
+	color:rgb(197, 193, 193)
+}
+/*Menú antes del footer*/
+.links a:hover { 
+	font-weight:bold;
+	color:black;
+	text-decoration-color: black;
+	text-decoration-style:solid;
+	letter-spacing:1px;
+}
