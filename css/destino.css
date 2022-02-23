@@ -11224,11 +11224,37 @@ textarea.form-control-lg {
   color: rgba(37, 37, 58, 0.6);
 }
 
+.btn--centolla {
+  background-color: black;
+  border-color: black;
+}
+
+.btn--cordero {
+  background-color: blue;
+  border-color: blue;
+}
+
+.btn--mejillon {
+  background-color: green;
+  border-color: green;
+}
+
+.btn--langostino {
+  background-color: orange;
+  border-color: orange;
+}
+
 /*Comentarios, mapa y contacto*/
+.titAbajoHead {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .contactos {
   font-size: 16px;
   font-weight: normal;
-  line-height: 1.8;
+  line-height: 2.2;
+  margin-top: 20px;
 }
 
 .titAbajo:hover {
@@ -11237,6 +11263,25 @@ textarea.form-control-lg {
   background-color: none;
   font-size: 36px;
   border: none;
+}
+
+.titAbajoTexto {
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.comentario {
+  font-size: 18px;
+}
+
+.links {
+  font-size: 18px;
+  font-weight: lighter;
+  width: 100%;
 }
 
 /*Footer*/
@@ -11333,6 +11378,43 @@ textarea.form-control-lg {
     width: 15%;
   }
 
+  .box, .boxAbajo {
+    font-size: 26px;
+  }
+
+  .boxAbajo {
+    font-size: 18px;
+  }
+
+  .titAbajoHead {
+    margin-top: 20px;
+  }
+  .titAbajoHead .titAbajo {
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .titAbajoHead .titAbajoTexto {
+    font-size: 15px;
+  }
+
+  .comentario {
+    font-size: 16px;
+  }
+
+  .links {
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0px;
+  }
+
+  .contactos {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 0px;
+  }
+
   .footerIzq {
     display: flex;
     justify-content: center;
@@ -11380,6 +11462,37 @@ textarea.form-control-lg {
 
   .column {
     width: 50%;
+  }
+
+  .box, .boxAbajo {
+    font-size: 26px;
+  }
+
+  .boxAbajo {
+    font-size: 18px;
+  }
+
+  .titAbajoHead {
+    margin-top: 20px;
+  }
+  .titAbajoHead .titAbajo {
+    font-size: 26px;
+  }
+  .titAbajoHead .titAbajoTexto {
+    font-size: 18px;
+  }
+
+  .links {
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px;
+  }
+
+  .contactos {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2;
+    margin-top: 10px;
   }
 
   .footerIzq {
@@ -11430,25 +11543,6 @@ textarea.form-control-lg {
     display: flex;
     justify-content: end;
   }
-}
-/*Map*/
-/*Declaro el mapa*/
-/*En la hoja tienda.html le agrego a cada boton la clase btn--$producto*/
-/*Creo el bucle para usar los valores del mapa*/
-.btn--centolla {
-  background-color: black;
-}
-
-.btn--cordero {
-  background-color: blue;
-}
-
-.btn--mejillon {
-  background-color: green;
-}
-
-.btn--langostino {
-  background-color: orange;
 }
 
 /*# sourceMappingURL=destino.css.map */

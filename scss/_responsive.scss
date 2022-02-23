@@ -16,6 +16,37 @@
 	.imgCart {
 		width: 15%;
 	}
+	.box {
+		font-size: 26px;
+	}
+	.boxAbajo {
+		font-size: 18px;
+	}
+	.titAbajoHead {
+		margin-top: 20px;
+		.titAbajo {
+		font-size:24px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		}
+		.titAbajoTexto {
+			font-size:15px;
+			}
+	}
+	.comentario {
+		font-size: 16px;
+	}
+	.links {
+		font-size: 16px;
+		font-weight: lighter;
+		padding: 0px;
+	}
+	.contactos {
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 1.5;
+		margin-top: 0px;
+	}
 	.footerIzq {
 		display: flex;
 		justify-content: center;
@@ -55,6 +86,32 @@
 	}
 	.column {
 		width: 50%;
+	}
+	.box {
+		font-size: 26px;
+	}
+	.boxAbajo {
+		font-size: 18px;
+	}
+	.titAbajoHead {
+		margin-top: 20px;
+		.titAbajo {
+		font-size:26px;
+		}
+		.titAbajoTexto {
+			font-size:18px;
+			}
+	}
+	.links {
+		font-size: 18px;
+		font-weight: lighter;
+		padding: 10px;
+	}
+	.contactos {
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 2;
+		margin-top: 10px;
 	}
 	.footerIzq {
 		display: flex;

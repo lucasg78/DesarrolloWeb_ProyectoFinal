@@ -98,12 +98,29 @@ $panoramica: (
 	color: rgba(37, 37, 58, 0.6);
 	}
 }
+$productos: (
+        centolla: black,
+        cordero:  blue,
+        mejillon: green,
+        langostino: orange,
+); 
+@each $producto, $color in $productos {
+    .btn--#{$producto} {
+        background-color: $color;
+		border-color: $color;
+    }
+}
 
 /*Comentarios, mapa y contacto*/
+.titAbajoHead {
+	text-align: center;
+	margin-top: 30px;
+}
 .contactos {
 	font-size: 16px;
 	font-weight: normal;
-	line-height: 1.8;
+	line-height: 2.2;
+	margin-top: 20px;
 }
 .titAbajo {
 	@extend .titCarousel;
@@ -114,6 +131,22 @@ $panoramica: (
 		font-size:36px;
 		border: none;
 	}
+}
+.titAbajoTexto {
+	font-size:18px;
+	font-weight: lighter;
+	font-style: italic;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;	
+}
+.comentario {
+	font-size: 18px;
+}
+.links {
+	font-size: 18px;
+	font-weight: lighter;
+	width: 100%;
 }
 
 /*Footer*/
