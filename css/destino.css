@@ -11216,10 +11216,36 @@ textarea.form-control-lg {
 .column {
   padding-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid #bebaba;
+  margin-left: 50px;
+  border: 2px solid #aca5a5;
 }
 
+.columnNatural {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #aca5a5;
+}
+
+.columnAhumados {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #aca5a5;
+}
+
+.titTienda {
+  padding-bottom: 5px;
+}
 .titTienda:hover {
+  letter-spacing: 3px;
+  color: rgba(37, 37, 58, 0.6);
+}
+
+.subTitTienda {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.subTitTienda:hover {
   letter-spacing: 3px;
   color: rgba(37, 37, 58, 0.6);
 }
@@ -11464,6 +11490,14 @@ textarea.form-control-lg {
     width: 50%;
   }
 
+  .columnAhumados {
+    width: 50%;
+  }
+
+  .columnNatural {
+    width: 50%;
+  }
+
   .box, .boxAbajo {
     font-size: 26px;
   }
@@ -11523,6 +11557,14 @@ textarea.form-control-lg {
   }
 
   .column {
+    width: 25%;
+  }
+
+  .columnAhumados {
+    width: 25%;
+  }
+
+  .columnNatural {
     width: 25%;
   }
 
