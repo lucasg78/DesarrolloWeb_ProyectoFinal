@@ -11214,22 +11214,17 @@ textarea.form-control-lg {
 }
 
 .column {
-  padding-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  border: 2px solid #aca5a5;
+  border: none;
 }
 
 .columnNatural {
   padding-top: 10px;
   margin-bottom: 10px;
-  border: 2px solid #aca5a5;
 }
 
 .columnAhumados {
   padding-top: 10px;
   margin-bottom: 10px;
-  border: 2px solid #aca5a5;
 }
 
 .titTienda {
@@ -11250,24 +11245,39 @@ textarea.form-control-lg {
   color: rgba(37, 37, 58, 0.6);
 }
 
-.btn--centolla {
+.btn--ahumado {
   background-color: black;
   border-color: black;
 }
 
-.btn--cordero {
+.btn--natural {
   background-color: blue;
   border-color: blue;
 }
 
+.btn--centolla {
+  background-color: #ff1100;
+  border-color: #ff1100;
+}
+
+.btn--centollon {
+  background-color: #f14e4e;
+  border-color: #f14e4e;
+}
+
+.btn--cordero {
+  background-color: brown;
+  border-color: brown;
+}
+
 .btn--mejillon {
-  background-color: green;
-  border-color: green;
+  background-color: #d3c93e;
+  border-color: #d3c93e;
 }
 
 .btn--langostino {
-  background-color: orange;
-  border-color: orange;
+  background-color: #ff9900;
+  border-color: #ff9900;
 }
 
 /*Comentarios, mapa y contacto*/
@@ -11402,6 +11412,18 @@ textarea.form-control-lg {
 
   .imgCart {
     width: 15%;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .columnAhumados {
+    width: 100%;
+  }
+
+  .columnNatural {
+    width: 100%;
   }
 
   .box, .boxAbajo {

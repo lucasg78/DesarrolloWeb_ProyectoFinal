@@ -87,20 +87,15 @@ $panoramica: (
 	font-size:14px;
 }
 .column {
-	padding-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 50px;
-	border: 2px solid rgb(172, 165, 165);
+	border: none;
 }
 .columnNatural {
 	padding-top: 10px;
 	margin-bottom: 10px;
-	border: 2px solid rgb(172, 165, 165);
 }
 .columnAhumados {
 	padding-top: 10px;
 	margin-bottom: 10px;
-	border: 2px solid rgb(172, 165, 165);
 }
 .titTienda {
 	@extend .titCarousel;
@@ -120,10 +115,13 @@ $panoramica: (
 	}
 }
 $productos: (
-        centolla: black,
-        cordero:  blue,
-        mejillon: green,
-        langostino: orange,
+		ahumado: black,
+		natural: blue,
+        centolla: rgb(255, 17, 0),
+		centollon: rgb(241, 78, 78),
+        cordero:  brown,
+        mejillon: rgb(211, 201, 62),
+        langostino: rgb(255, 153, 0),
 ); 
 @each $producto, $color in $productos {
     .btn--#{$producto} {
