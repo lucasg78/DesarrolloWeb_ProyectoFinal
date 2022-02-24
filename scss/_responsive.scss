@@ -18,12 +18,19 @@
 	}
 	.column {
 		width: 100%;
+		margin-bottom: 10px;
+	}
+	.colResp {
+		margin-bottom: 30px;
 	}
 	.columnAhumados {
 		width: 100%;
 	}
 	.columnNatural {
 		width: 100%;
+	}
+	.titTienda {
+		font-size: 26px
 	}
 	.box {
 		font-size: 26px;
@@ -33,6 +40,7 @@
 	}
 	.titAbajoHead {
 		margin-top: 20px;
+		margin-bottom: 20px;
 		.titAbajo {
 		font-size:24px;
 		margin-bottom: 0px;
@@ -55,6 +63,9 @@
 		font-weight: normal;
 		line-height: 1.5;
 		margin-top: 0px;
+	}
+	.textoContactos {
+		font-size: 14px;
 	}
 	.footerIzq {
 		display: flex;
@@ -110,8 +121,9 @@
 	}
 	.titAbajoHead {
 		margin-top: 20px;
+		margin-bottom: 20px;
 		.titAbajo {
-		font-size:26px;
+		font-size:24px;
 		}
 		.titAbajoTexto {
 			font-size:18px;
@@ -120,13 +132,16 @@
 	.links {
 		font-size: 18px;
 		font-weight: lighter;
-		padding: 10px;
+		padding: 0px;
 	}
 	.contactos {
 		font-size: 18px;
 		font-weight: normal;
-		line-height: 2;
+		line-height: 1.5;
 		margin-top: 10px;
+	}
+	.textoContactos {
+		font-size: 15px;
 	}
 	.footerIzq {
 		display: flex;

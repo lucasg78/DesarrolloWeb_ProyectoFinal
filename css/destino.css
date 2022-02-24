@@ -11320,6 +11320,10 @@ textarea.form-control-lg {
   width: 100%;
 }
 
+.textoContactos {
+  font-size: 16px;
+}
+
 /*Footer*/
 .footerIzq {
   padding-left: 20px;
@@ -11416,6 +11420,11 @@ textarea.form-control-lg {
 
   .column {
     width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .colResp {
+    margin-bottom: 30px;
   }
 
   .columnAhumados {
@@ -11424,6 +11433,10 @@ textarea.form-control-lg {
 
   .columnNatural {
     width: 100%;
+  }
+
+  .titTienda {
+    font-size: 26px;
   }
 
   .box, .boxAbajo {
@@ -11436,6 +11449,7 @@ textarea.form-control-lg {
 
   .titAbajoHead {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .titAbajoHead .titAbajo {
     font-size: 24px;
@@ -11461,6 +11475,10 @@ textarea.form-control-lg {
     font-weight: normal;
     line-height: 1.5;
     margin-top: 0px;
+  }
+
+  .textoContactos {
+    font-size: 14px;
   }
 
   .footerIzq {
@@ -11530,9 +11548,10 @@ textarea.form-control-lg {
 
   .titAbajoHead {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .titAbajoHead .titAbajo {
-    font-size: 26px;
+    font-size: 24px;
   }
   .titAbajoHead .titAbajoTexto {
     font-size: 18px;
@@ -11541,14 +11560,18 @@ textarea.form-control-lg {
   .links {
     font-size: 18px;
     font-weight: lighter;
-    padding: 10px;
+    padding: 0px;
   }
 
   .contactos {
     font-size: 18px;
     font-weight: normal;
-    line-height: 2;
+    line-height: 1.5;
     margin-top: 10px;
+  }
+
+  .textoContactos {
+    font-size: 15px;
   }
 
   .footerIzq {
