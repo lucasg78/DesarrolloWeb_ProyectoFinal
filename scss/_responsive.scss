@@ -1,4 +1,16 @@
 @media screen and (max-width:479px) {
+	.headerTitulo {
+		font-size:20px;
+		font-weight: bold;
+		color:white;
+		margin-top:32px; 
+	}
+	.headerSubTitulo {
+		font-size:14px;
+		font-weight: normal;
+		color:white;
+		margin-bottom:12px; 
+	}
 	.carousel {
 		display:flex;
 		width:75%;

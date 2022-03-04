@@ -11129,6 +11129,20 @@ textarea.form-control-lg {
 }
 
 /*Header*/
+.headerTitulo {
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+  margin-top: 32px;
+}
+
+.headerSubTitulo {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  margin-bottom: 20px;
+}
+
 .cart {
   display: flex;
   justify-content: center;
@@ -11397,6 +11411,20 @@ textarea.form-control-lg {
 }
 
 @media screen and (max-width: 479px) {
+  .headerTitulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 32px;
+  }
+
+  .headerSubTitulo {
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 12px;
+  }
+
   .carousel {
     display: flex;
     width: 75%;
