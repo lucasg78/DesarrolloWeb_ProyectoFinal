@@ -11129,14 +11129,14 @@ textarea.form-control-lg {
 }
 
 /*Header*/
-.headerTitulo {
+.titulo {
   font-size: 38px;
   font-weight: bold;
   color: white;
   margin-top: 32px;
 }
 
-.headerSubTitulo {
+.subTitulo {
   font-size: 20px;
   font-weight: normal;
   color: white;
@@ -11411,15 +11411,15 @@ textarea.form-control-lg {
 }
 
 @media screen and (max-width: 479px) {
-  .headerTitulo {
-    font-size: 20px;
+  .titulo {
+    font-size: 22px;
     font-weight: bold;
     color: white;
     margin-top: 32px;
   }
 
-  .headerSubTitulo {
-    font-size: 14px;
+  .subTitulo {
+    font-size: 12px;
     font-weight: normal;
     color: white;
     margin-bottom: 12px;
