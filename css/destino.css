@@ -11295,6 +11295,11 @@ textarea.form-control-lg {
 }
 
 /*Comentarios, mapa y contacto*/
+.abajo {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
 .titAbajoHead {
   text-align: center;
   margin-top: 30px;
@@ -11412,14 +11417,14 @@ textarea.form-control-lg {
 
 @media screen and (max-width: 479px) {
   .titulo {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     color: white;
     margin-top: 32px;
   }
 
   .subTitulo {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     color: white;
     margin-bottom: 12px;
@@ -11430,6 +11435,12 @@ textarea.form-control-lg {
     width: 75%;
     align-items: center;
     justify-content: center;
+  }
+
+  .titCarousel, .titTienda, .titAbajo {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
   }
 
   .imgLogo {
