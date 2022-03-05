@@ -11229,6 +11229,7 @@ textarea.form-control-lg {
 
 .column {
   border: none;
+  margin: 0px 50px;
 }
 
 .columnNatural {
@@ -11469,7 +11470,7 @@ textarea.form-control-lg {
   }
 
   .colResp {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   .columnAhumados {
@@ -11485,7 +11486,13 @@ textarea.form-control-lg {
   }
 
   .titTienda {
-    font-size: 26px;
+    font-size: 20px;
+  }
+
+  .subTitTienda {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
   }
 
   .box, .boxAbajo {
