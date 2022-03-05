@@ -24,6 +24,11 @@
 	width: 35%;
 	}
 
+/*Menú*/
+.menu {	
+	background-color: rgba(51, 47, 47, 0.192);
+}
+
 /*Panorámicas*/
 $panoramica: (
     alto: 100%,
@@ -44,16 +49,23 @@ $panoramica: (
 	background-image: url(../images/panoramica2.jpg);
 	@extend .panoramica;
 }
-/*Ahumadero adentro del local*/
+/*Vista aérea TDF*/
 .panoramica3 {
-	background-image: url(../images/contacto.png);
+	background-image: url(../images/panoramica3.jpg);
 	@extend .panoramica;
 }
-/*Contacto*/
+/*Ahumadero adentro del local*/
 .panoramica4 {
 	background-image: url(../images/panoramica4.jpg);
+	@extend .panoramica;	
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+/*Contacto*/
+.panoramica5 {
+	background-image: url(../images/panoramica5.jpg);
 	@extend .panoramica;
-	margin-bottom: 0px;
+	padding-bottom: 100px;
 }
 /*Cuadros de texto debajo de las panorámicas*/
 .colBox {
@@ -105,7 +117,6 @@ $panoramica: (
 	font-size:14px;
 }
 .column {
-	border: none;
 	margin: 0px 50px;
 }
 .columnNatural {
@@ -113,26 +124,20 @@ $panoramica: (
 	margin-bottom: 10px;
 }
 .columnAhumados {
-	padding-top: 10px;
+	padding-top: 5px;
 	margin-bottom: 10px;
 }
-.titTienda {
-	@extend .titCarousel;
-	padding-bottom: 5px;
-	&:hover {
-	letter-spacing: 3px;
-	color: rgba(37, 37, 58, 0.6);
-	}
-}
 .subTitTienda {
-	font-size: 26px;
+	color: white;
+	font-size: 30px;
 	font-weight: bold;
 	padding-bottom: 10px;
-	&:hover {
-	letter-spacing: 3px;
-	color: rgba(37, 37, 58, 0.6);
 	}
-}
+.subTitTiendaAhumados {
+	@extend .subTitTienda;	
+	color: black;
+	text-align: center;
+	}
 $productos: (
 		ahumado: black,
 		natural: blue,
@@ -159,7 +164,7 @@ $productos: (
 	display: flex;
 	justify-content: center;	
 	margin-top: 0px;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	margin-left: 400px;
 	margin-right: 400px;
 	padding-bottom: 10px;
