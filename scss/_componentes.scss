@@ -41,13 +41,19 @@ $panoramica: (
 }
 /*Ushuaia desde la bahía*/
 .panoramica2 {
-	background-image: url(../images/panoramica4.jpg);
+	background-image: url(../images/panoramica2.jpg);
 	@extend .panoramica;
 }
 /*Ahumadero adentro del local*/
 .panoramica3 {
 	background-image: url(../images/contacto.png);
 	@extend .panoramica;
+}
+/*Contacto*/
+.panoramica4 {
+	background-image: url(../images/panoramica4.jpg);
+	@extend .panoramica;
+	margin-bottom: 0px;
 }
 /*Cuadros de texto debajo de las panorámicas*/
 .colBox {
@@ -141,6 +147,43 @@ $productos: (
         background-color: $color;
 		border-color: $color;
     }
+}
+
+/*Formulario de contacto*/
+.headForm {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.contentForm {
+	display: flex;
+	justify-content: center;	
+	margin-top: 0px;
+	margin-bottom: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-bottom: 10px;
+	background-color: rgba(0, 0, 0, 0.678);
+	border-radius: 10px;
+	text-align: center;
+}
+.textForm1 {
+	color:white;
+	font-size: 52px;
+	font-weight:800;
+	margin-top: 20px;
+	margin-top: 2px;
+}
+.textForm2 {
+	color:white;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-top: 0px;
+}
+.btnEnviar {
+	background-color:rgb(211, 75, 57);
+	border: none;
 }
 
 /*Comentarios, mapa y contacto*/

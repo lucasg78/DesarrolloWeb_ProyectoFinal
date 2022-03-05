@@ -11160,7 +11160,7 @@ textarea.form-control-lg {
 
 /*Panorámicas*/
 /*Ushuaia nevada*/
-.panoramica, .panoramica3, .panoramica2 {
+.panoramica, .panoramica4, .panoramica3, .panoramica2 {
   background-image: url(../images/panoramica.jpg);
   height: 100%;
   background-attachment: fixed;
@@ -11170,12 +11170,18 @@ textarea.form-control-lg {
 
 /*Ushuaia desde la bahía*/
 .panoramica2 {
-  background-image: url(../images/panoramica4.jpg);
+  background-image: url(../images/panoramica2.jpg);
 }
 
 /*Ahumadero adentro del local*/
 .panoramica3 {
   background-image: url(../images/contacto.png);
+}
+
+/*Contacto*/
+.panoramica4 {
+  background-image: url(../images/panoramica4.jpg);
+  margin-bottom: 0px;
 }
 
 /*Cuadros de texto debajo de las panorámicas*/
@@ -11293,6 +11299,47 @@ textarea.form-control-lg {
 .btn--langostino {
   background-color: #ff9900;
   border-color: #ff9900;
+}
+
+/*Formulario de contacto*/
+.headForm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contentForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.678);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.textForm1 {
+  color: white;
+  font-size: 52px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-top: 2px;
+}
+
+.textForm2 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-top: 0px;
+}
+
+.btnEnviar {
+  background-color: #d34b39;
+  border: none;
 }
 
 /*Comentarios, mapa y contacto*/
