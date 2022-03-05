@@ -28,6 +28,12 @@
 	}
 }
 
+/* Animación de los botones -Quiero comprar-*/
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+
 /* Animación del texto -Leer los comentarios-*/
 .comentario a:hover {
 	transition: all 1s;
