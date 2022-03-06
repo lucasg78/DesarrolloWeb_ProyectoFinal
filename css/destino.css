@@ -11166,7 +11166,7 @@ textarea.form-control-lg {
 /*Panorámicas*/
 /*Ushuaia nevada*/
 .panoramica, .panoramica5, .panoramica4, .panoramica3, .panoramica2 {
-  background-image: url(../images/panoramica.jpg);
+  background-image: url(../images/panoramicanevada.webp);
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -11175,12 +11175,12 @@ textarea.form-control-lg {
 
 /*Ushuaia desde la bahía*/
 .panoramica2 {
-  background-image: url(../images/panoramica2.jpg);
+  background-image: url(../images/panoramica2.webp);
 }
 
 /*Vista aérea TDF*/
 .panoramica3 {
-  background-image: url(../images/panoramica3.jpg);
+  background-image: url(../images/mapa.webp);
 }
 
 /*Ahumadero adentro del local*/

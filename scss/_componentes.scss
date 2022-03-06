@@ -38,7 +38,7 @@ $panoramica: (
 );
 /*Ushuaia nevada*/
 .panoramica {
-	background-image: url(../images/panoramica.jpg);
+	background-image: url(../images/panoramicanevada.webp);
 	height: map-get($panoramica, alto);
 	background-attachment: map-get($panoramica, bg-att);
 	background-position: map-get($panoramica, bg-pos);
@@ -46,12 +46,12 @@ $panoramica: (
 }
 /*Ushuaia desde la bahía*/
 .panoramica2 {
-	background-image: url(../images/panoramica2.jpg);
+	background-image: url(../images/panoramica2.webp);
 	@extend .panoramica;
 }
 /*Vista aérea TDF*/
 .panoramica3 {
-	background-image: url(../images/panoramica3.jpg);
+	background-image: url(../images/mapa.webp);
 	@extend .panoramica;
 }
 /*Ahumadero adentro del local*/
