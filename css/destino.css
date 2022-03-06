@@ -11331,7 +11331,6 @@ textarea.form-control-lg {
   font-size: 52px;
   font-weight: 800;
   margin-top: 20px;
-  margin-top: 2px;
 }
 
 .textForm2 {
@@ -11542,9 +11541,61 @@ textarea.form-control-lg {
   }
 
   .subTitTienda, .subTitTiendaAhumados {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 800;
     padding-bottom: 10px;
+  }
+
+  .subTitTiendaAhumados {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: black;
+    text-align: center;
+  }
+
+  .panoramica5 {
+    background-image: url(../images/panoramica5.jpg);
+    padding-bottom: 30px;
+  }
+
+  .headForm {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contentForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .textForm1 {
+    color: white;
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 10px;
+  }
+
+  .textForm2 {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-top: 0px;
+  }
+
+  .btnEnviar {
+    background-color: #d34b39;
+    border: none;
   }
 
   .box, .boxAbajo {
