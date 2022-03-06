@@ -11554,6 +11554,12 @@ textarea.form-control-lg {
     text-align: center;
   }
 
+  .panoramica4 {
+    background-image: url(../images/panoramica4.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .panoramica5 {
     background-image: url(../images/panoramica5.jpg);
     padding-bottom: 30px;
@@ -11689,12 +11695,27 @@ textarea.form-control-lg {
     width: 50%;
   }
 
+  .colResp {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
   .columnAhumados {
     width: 50%;
   }
 
   .columnNatural {
     width: 50%;
+  }
+
+  .panoramica4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .panoramica5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .box, .boxAbajo {

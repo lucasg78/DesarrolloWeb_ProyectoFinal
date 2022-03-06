@@ -65,6 +65,12 @@
 		color: black;
 		text-align: center;
 		}
+	.panoramica4 {
+		background-image: url(../images/panoramica4.jpg);
+		@extend .panoramica;	
+		padding-top: 30px;
+		padding-bottom: 30px;
+		}
 	.panoramica5 {
 		background-image: url(../images/panoramica5.jpg);
 		@extend .panoramica;
@@ -179,11 +185,23 @@
 	.column {
 		width: 50%;
 	}
+	.colResp {
+		width: 50%;
+		margin-bottom: 30px;
+	}
 	.columnAhumados {
 		width: 50%;
 	}
 	.columnNatural {
 		width: 50%;
+	}
+	.panoramica4 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		}
+	.panoramica5 {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 	.box {
 		font-size: 26px;
