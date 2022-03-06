@@ -11379,9 +11379,11 @@ textarea.form-control-lg {
   text-align: center;
   padding-right: 10px;
   padding-left: 10px;
+  line-height: 1.5;
 }
 
 .comentario {
+  padding-top: 10px;
   font-size: 18px;
 }
 
